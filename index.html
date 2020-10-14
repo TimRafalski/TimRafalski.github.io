@@ -21,7 +21,23 @@
   <body>
     <h1>Java Script Quiz</h1>
     <div class="alert alert-success" role="alert">
-      What a cool success alert—check it out!
+      When you are ready click start to begin!
     </div>
+    <form>
+      <div class="form-group">
+        <label for="namePrompt">Please enter your name</label>
+        <input
+          type="name"
+          class="form-control"
+          id="namePrompt"
+          aria-describedby="nameHelp"
+          placeholder="Enter n"
+        />
+        <small id="emailHelp" class="form-text text-muted"
+          >We'll never share your name with anyone else.</small
+        >
+      </div>
+      <button type="submit" class="btn btn-primary">Start</button>
+    </form>
   </body>
 </html>
