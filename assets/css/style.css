@@ -17,7 +17,7 @@ h1 {
 }
 
 #quiz {
-  align-self: center;
+  align-items: center;
 }
 #startWidget {
   text-align: center;
