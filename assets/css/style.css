@@ -11,6 +11,11 @@ h1 {
   text-align: left;
 }
 
+#highScoresPage {
+  color: blue;
+  align-items: center;
+}
+
 #quiz {
   align-self: center;
 }
