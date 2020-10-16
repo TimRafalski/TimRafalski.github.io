@@ -32,6 +32,15 @@ const myQuestions = [
   },
 ];
 
+function startQuiz() {
+  var x = document.getElementById("questions");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 function timer() {
   count = count - 1;
   if (count <= 0) {
