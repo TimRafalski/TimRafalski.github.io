@@ -1,1 +1,12 @@
 /* style here */
+/* ALL h1 elements look like this */
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+/* only the id "highScoresLink" looks like this */
+#highScoresLink {
+  color: red;
+  text-align: left;
+}
