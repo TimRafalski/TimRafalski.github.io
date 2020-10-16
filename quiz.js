@@ -32,6 +32,16 @@ const myQuestions = [
   },
 ];
 
+function timer() {
+  count = count - 1;
+  if (count <= 0) {
+    clearInterval(counter);
+    return;
+  }
+
+  document.getElementById("timer").innerHTML = count + " secs"; // watch for spelling
+}
+
 function buildQuiz() {
   // variable to store the HTML output
   const output = [];
