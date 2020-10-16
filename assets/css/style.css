@@ -14,3 +14,7 @@ h1 {
 #startWidget {
   text-align: center;
 }
+
+#startButton {
+  align-self: center;
+}
