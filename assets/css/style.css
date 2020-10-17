@@ -13,19 +13,8 @@ h1 {
 
 #highScoresPage {
   color: blue;
-  align-items: center;
 }
 
-#quiz {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
 #startWidget {
   text-align: center;
-}
-
-#startButton {
-  align-self: center;
 }
